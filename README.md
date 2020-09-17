@@ -1,6 +1,16 @@
 # platypus insult generator
 
 Use node 10.18
+
+## Deploy to Heroku
+
+`heroku login`
+`yarn build`
+
+## Run locally
+`yarn build`
+`yard start`
+
 ## Available Scripts
 
 In the project directory, you can run:
