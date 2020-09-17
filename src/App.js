@@ -2,6 +2,10 @@ import React from 'react';
 import logo from './platypus.png';
 import './App.css';
 
+function PlatypusButton(props){
+  return <button type="button">Click Me, {props.button_label}</button>;
+}
+
 function App() {
   return (
     <div className="App">
@@ -15,6 +19,7 @@ function App() {
         >
           Learn About Platypus
         </a>
+        <PlatypusButton button_label="Platypus Info" />
       </header>
     </div>
   );

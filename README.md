@@ -6,14 +6,15 @@ Use node 10.18
 
 `heroku login`
 `yarn build`
+`git push heroku master`
+
+Ref: https://medium.com/jeremy-gottfrieds-tech-blog/tutorial-how-to-deploy-a-production-react-app-to-heroku-c4831dfcfa08
 
 ## Run locally
 `yarn build`
 `yard start`
 
-## Available Scripts
-
-In the project directory, you can run:
+## Leftover from create-react-app
 
 ### `npm start`
 
