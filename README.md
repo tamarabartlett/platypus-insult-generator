@@ -5,17 +5,17 @@ Use node 10.18
 ## Deploy to Heroku
 
 `heroku login`
-`yarn build`
+`npm runb uild`
 `git push heroku master`
 
 Ref: https://medium.com/jeremy-gottfrieds-tech-blog/tutorial-how-to-deploy-a-production-react-app-to-heroku-c4831dfcfa08
 
 ## Run locally
-`yarn build`
-`yard start`
+`npm run build`
+`npm start`
+
 
 ## Leftover from create-react-app
-
 ### `npm start`
 
 Runs the app in the development mode.<br />
