@@ -1,5 +1,7 @@
 # platypus insult generator
 
+https://platypus-insult-generator.herokuapp.com/
+
 Use node 10.18
 
 ## Deploy to Heroku
