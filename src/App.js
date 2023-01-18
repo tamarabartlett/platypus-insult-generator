@@ -2,7 +2,7 @@ import React from 'react';
 import logo from './platypus.png';
 import './App.css';
 import PlatypusInsult from './PlatypusInsult'
-import Button from '@material-ui/core/Button';
+import Button from '@mui/material/Button'
 
 function App() {
   return (

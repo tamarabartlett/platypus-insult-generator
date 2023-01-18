@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Button from '@material-ui/core/Button';
+import Button from '@mui/material/Button'
 
 export default class PlatypusInsult extends Component {
   state = {
@@ -55,7 +55,7 @@ function generateInsult(){
   var insult_index_1 = Math.floor(Math.random() * insults.length)
   var insult_index_2 = Math.floor(Math.random() * insults.length)
 
-  while (insult_index_1 == insult_index_2){
+  while (insult_index_1 === insult_index_2){
     insult_index_2 = Math.floor(Math.random() * insults.length)
   }
 
@@ -75,7 +75,7 @@ function generateInsult(){
 }
 
 function is_vowel(c){
-  if(c == "a" || c == "e" || c == "i" || c == "o" || c == "u" ) {
+  if(c === "a" || c === "e" || c === "i" || c === "o" || c === "u" ) {
       return true;
   }
   return false
