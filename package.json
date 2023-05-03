@@ -11,9 +11,7 @@
   "main": "index.js",
   "author": "Tamara Bartlett <tamara.bartlett@uplight.com>",
   "license": "MIT",
-  "engines": {
-    "node": ">=19.x.x"
-  },
+  "engines": { "node": "18.x" } ,
   "eslintConfig": {
     "extends": "react-app"
   },
